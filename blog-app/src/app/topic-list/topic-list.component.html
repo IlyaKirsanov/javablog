@@ -1,0 +1,11 @@
+<h5>All Topics</h5>
+<div *ngFor="let topic of topics">
+  <a [routerLink]="['/topics', topic.id]">
+    <div class="title" style="text-align: center">Topic: {{topic.id}} - {{topic.description}}</div>
+  <div text-center>
+
+    <img class="rounded mx-auto d-block" src="{{topic.fileLink}}"   style="width: 100px; height: 75px; " />
+  </div>
+  </a>
+
+</div>

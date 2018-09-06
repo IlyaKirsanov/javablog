@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h1>Blog App (DEMO)</h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a routerLink="topics" class="btn btn-light btn-sm" role="button" routerLinkActive="active">Topic List</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="topic/add" class="btn btn-light btn-sm" role="button" routerLinkActive="active">Create Topic</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="findbycategory" class="btn btn-light btn-sm" role="button" routerLinkActive="active">Search</a>
+        </li>
+      </ul>
+      <hr>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
