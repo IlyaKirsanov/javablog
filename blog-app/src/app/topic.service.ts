@@ -38,7 +38,7 @@ export class TopicService {
     return this.http.put(`${this.baseUrl}/topics/`, topic, httpOptions);
   }
 
-    //return this.http.put(`${this.baseUrl}/topics/${id}`, id, httpOptions);
+
 
 
 
