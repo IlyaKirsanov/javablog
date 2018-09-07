@@ -76,21 +76,4 @@ public class TopicController {
         topicRepository.save(topic);
     }
 }
-//    public ResponseEntity<Topic> updateTopic(@PathVariable("id") int id, @RequestBody Topic topic) {
-//        System.out.println("Update topic with ID = " + id + "...");
-//
-//        Optional<Topic> topicData = topicRepository.findById(id);
-//
-//        if (topicData.isPresent()) {
-//            Topic _topic = topicData.get();
-//            _topic.setCategory(topic.getCategory());
-//            _topic.setDescription(topic.getDescription());
-//            _topic.setText(topic.getText());
-//            _topic.setFileLink(topic.getFileLink());
-//            return new ResponseEntity<>(topicRepository.save(_topic), HttpStatus.OK);
-//        } else {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//    }
-//}
 
